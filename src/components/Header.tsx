@@ -38,7 +38,6 @@ const Header = () => {
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-200 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo Section */}
           <div className="flex items-center space-x-3 group">
             <div className="relative">
               <div className="w-10 h-10 bg-black rounded-xl flex items-center justify-center transform group-hover:scale-105 transition-all duration-300 shadow-lg group-hover:shadow-xl">
@@ -51,7 +50,6 @@ const Header = () => {
             </h1>
           </div>
 
-          {/* Search Section */}
           <div className="flex-1 max-w-xl mx-8">
             <div className={`relative group transition-all duration-300 ${
               isSearchFocused ? 'transform scale-105' : ''
